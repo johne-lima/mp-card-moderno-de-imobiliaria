@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F4F6;
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #10B981;
+    width: 60%;
+    height: 50%;
+    margin: 80px auto;
+}
+
+#imagem-principal {
+    margin-top: 5px;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+
+.header-texts {
+    padding-top: 15px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    gap: 12px;
+    background-color: #fff;
+}
+
+.header-texts h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-texts p {
+    padding-left: 10px;
+    font-size: 15px;
+    color: #6E6E6E;
+}
+
+#star {
+    width: 23px;
+    height: 22px;
+}
+
+.stars p {
+    font-size: 20px;
+    color: #6E6E6E;
+}
+
+.attributes {
+    height: 65px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    padding: 20px 20px 0 20px;
+    background-color: #fff;
+}
+
+.attributes img {
+    width: 20px;
+    height: 20px;
+}
+
+.attributes p {
+    font-size: 15px;
+    color: #6E6E6E;
+    padding: 2px;
+}
+
+.tags {
+    margin-top: 11px;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0 0 20px;
+    background-color: #fff;
+}
+
+.tags span{
+    background-color: #E5E7EB;
+    color: #4B5563;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+#tag1 {
+    width: 63px;
+    height: 24px;
+}
+
+#tag2 {
+    width: 75px;
+    height: 24px;
+}
+
+#tag3 {
+    width: 83px;
+    height: 24px;
+}
+
+#valor {
+    font-size: 32px;
+    color: #059669;
+    font-weight: bold;
+    padding: 10px 20px 0 30px;
+    background-color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px 20px 20px;
+    background-color: #fff;
+    border-radius: 0 0px 20px 20px;
+}
+
+#agendar-visita {
+    width: 189px;
+    height: 52px;
+    background-color: #059669;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 14px 23px;
+}
+
+#contatar-corretor {
+    width: 189px;
+    height: 52px;
+    color: #059669;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: #059669 solid 1px;
+    padding: 11px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+#agendar-visita:hover {
+    background-color: #10B981;
+}
+
+#contatar-corretor:hover {
+    background-color: #E5E7EB;
+}
